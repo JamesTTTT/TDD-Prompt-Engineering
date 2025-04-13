@@ -4,6 +4,9 @@
 test_artist_with_no_concert
 test_single_concert_per_artist
 test_sorted_by_date
+test_single_concert_per_date
+test_available_artists_populated
+test_available_artists_initialization
 ==== AI-Assisted Test Cases ====
 test_unique_dates
 test_itinerary_content_format
