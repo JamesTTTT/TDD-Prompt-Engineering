@@ -1,0 +1,488 @@
+{
+  "experiment_start": "2025-04-13T14:34:48",
+  "test_runs": [
+    {
+      "timestamp": "2025-04-13T17:47:45.919592",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ERROR\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 46, in test_artist_with_no_concert\n    self.assertTrue(self.builder.is_artist_missing(specific_artist))\nAttributeError: 'ItineraryBuilder' object has no attribute 'is_artist_missing'\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:48:22.601471",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ERROR\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 46, in test_artist_with_no_concert\n    self.assertTrue(self.builder.is_artist_missing(specific_artist))\nAttributeError: 'ItineraryBuilder' object has no attribute 'is_artist_missing'\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:48:28.079385",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ERROR\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 46, in test_artist_with_no_concert\n    self.assertTrue(self.builder.is_artist_missing(specific_artist))\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/main.py\", line 51, in is_artist_missing\n    if not self.available_artists:\nAttributeError: 'ItineraryBuilder' object has no attribute 'available_artists'\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:49:35.327368",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ERROR\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 46, in test_artist_with_no_concert\n    self.assertTrue(self.builder.is_artist_missing(specific_artist))\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/main.py\", line 51, in is_artist_missing\n    return return_selected\nAttributeError: 'ItineraryBuilder' object has no attribute 'available_artists'\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:58:49.149288",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 2,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ERROR\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ERROR\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 46, in test_artist_with_no_concert\n    self.assertTrue(self.builder.is_artist_missing(specific_artist))\nAttributeError: 'ItineraryBuilder' object has no attribute 'is_artist_missing'\n\n======================================================================\nERROR: test_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 40, in test_single_concert_per_artist\n    select_artist = itinerary[0].artist\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=2)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:59:27.466231",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 1,
+        "skipped": 0,
+        "success": false,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ERROR\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n======================================================================\nERROR: test_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/home/james/workdir/trash/TDD-Prompt-Engineering/test.py\", line 40, in test_single_concert_per_artist\n    select_artist = itinerary[0].artist\nIndexError: list index out of range\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nFAILED (errors=1)\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:00:15.119571",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:03:05.538146",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:05:56.289230",
+      "results": {
+        "total": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:06:05.624092",
+      "results": {
+        "total": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_available_artists_initialization (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_available_artists_populated (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_single_concert_per_date (test.ItineraryBuilderTest)\nVerify no duplicate dates in itinerary ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:07:49.547775",
+      "results": {
+        "total": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_available_artists_initialization (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_available_artists_populated (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_itinerary_content_format (test.ItineraryBuilderTest)\nVerify that the itinerary contains the required information for each concert ... ok\ntest_prioritize_single_concert_artists (test.ItineraryBuilderTest)\nVerify artists with only one concert are prioritized over artists with multiple concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_single_concert_per_date (test.ItineraryBuilderTest)\nVerify no duplicate dates in itinerary ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\ntest_unique_dates (test.ItineraryBuilderTest)\nVerify Unique dates ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:15:04.214186",
+      "results": {
+        "total": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_available_artists_initialization (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_available_artists_populated (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_itinerary_content_format (test.ItineraryBuilderTest)\nVerify that the itinerary contains the required information for each concert ... ok\ntest_prioritize_single_concert_artists (test.ItineraryBuilderTest)\nVerify artists with only one concert are prioritized over artists with multiple concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_single_concert_per_date (test.ItineraryBuilderTest)\nVerify no duplicate dates in itinerary ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\ntest_unique_dates (test.ItineraryBuilderTest)\nVerify Unique dates ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.000s\n\nOK\n"
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:15:15.408290",
+      "results": {
+        "total": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "success": true,
+        "details": "test_artist_with_no_concert (test.ItineraryBuilderTest)\nVerify artists with no concerts ... ok\ntest_available_artists_initialization (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_available_artists_populated (test.ItineraryBuilderTest)\nVerify that available_artists is populated during build_itinerary ... ok\ntest_itinerary_content_format (test.ItineraryBuilderTest)\nVerify that the itinerary contains the required information for each concert ... ok\ntest_prioritize_single_concert_artists (test.ItineraryBuilderTest)\nVerify artists with only one concert are prioritized over artists with multiple concerts ... ok\ntest_single_concert_per_artist (test.ItineraryBuilderTest)\nVerify single concert per artist ... ok\ntest_single_concert_per_date (test.ItineraryBuilderTest)\nVerify no duplicate dates in itinerary ... ok\ntest_sorted_by_date (test.ItineraryBuilderTest)\nVerify that the concerts are sorted by date ... ok\ntest_unique_dates (test.ItineraryBuilderTest)\nVerify Unique dates ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.000s\n\nOK\n"
+      }
+    }
+  ],
+  "file_changes": [],
+  "coverage_reports": [
+    {
+      "timestamp": "2025-04-13T15:35:19.559240",
+      "total_coverage": 25.0,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 20,
+          "lines_covered": 15,
+          "lines_missed": 26,
+          "percentage": 75.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:47:45.933727",
+      "total_coverage": 53.57142857142857,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 26,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 50.0
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:48:22.605494",
+      "total_coverage": 50.0,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 30,
+          "lines_covered": 17,
+          "lines_missed": 11,
+          "percentage": 56.666666666666664
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:48:28.087868",
+      "total_coverage": 51.666666666666664,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 30,
+          "lines_covered": 16,
+          "lines_missed": 15,
+          "percentage": 53.333333333333336
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:49:35.331300",
+      "total_coverage": 46.03174603174603,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 21,
+          "lines_missed": 22,
+          "percentage": 63.63636363636363
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:49:38.978133",
+      "total_coverage": 53.96825396825397,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:52:33.870750",
+      "total_coverage": 53.96825396825397,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:58:49.157454",
+      "total_coverage": 27.272727272727273,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 16,
+          "lines_missed": 33,
+          "percentage": 61.53846153846154
+        },
+        "main.py": {
+          "lines_total": 14,
+          "lines_covered": 13,
+          "lines_missed": 11,
+          "percentage": 92.85714285714286
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T17:59:27.474647",
+      "total_coverage": 44.44444444444444,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 16,
+          "lines_missed": 33,
+          "percentage": 61.53846153846154
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:00:15.127958",
+      "total_coverage": 53.96825396825397,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        },
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:03:05.546039",
+      "total_coverage": 53.96825396825397,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 26,
+          "lines_covered": 10,
+          "lines_missed": 23,
+          "percentage": 38.46153846153846
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:05:56.294144",
+      "total_coverage": 46.57534246575342,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 36,
+          "lines_covered": 20,
+          "lines_missed": 23,
+          "percentage": 55.55555555555556
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:06:05.632649",
+      "total_coverage": 56.16438356164384,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 36,
+          "lines_covered": 13,
+          "lines_missed": 35,
+          "percentage": 36.111111111111114
+        },
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:07:49.556737",
+      "total_coverage": 65.74074074074075,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 33,
+          "lines_covered": 16,
+          "lines_missed": 19,
+          "percentage": 48.484848484848484
+        },
+        "test.py": {
+          "lines_total": 71,
+          "lines_covered": 18,
+          "lines_missed": 49,
+          "percentage": 25.35211267605634
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:15:04.219345",
+      "total_coverage": 48.78048780487805,
+      "file_coverage": {
+        "main.py": {
+          "lines_total": 48,
+          "lines_covered": 42,
+          "lines_missed": 19,
+          "percentage": 87.5
+        },
+        "test.py": {
+          "lines_total": 71,
+          "lines_covered": 18,
+          "lines_missed": 49,
+          "percentage": 25.35211267605634
+        }
+      }
+    },
+    {
+      "timestamp": "2025-04-13T18:15:15.417685",
+      "total_coverage": 65.85365853658537,
+      "file_coverage": {
+        "test.py": {
+          "lines_total": 71,
+          "lines_covered": 18,
+          "lines_missed": 49,
+          "percentage": 25.35211267605634
+        },
+        "main.py": {
+          "lines_total": 48,
+          "lines_covered": 21,
+          "lines_missed": 24,
+          "percentage": 43.75
+        }
+      }
+    }
+  ],
+  "task_times": [
+    {
+      "timestamp": "2025-04-13T18:01:22.298408",
+      "task": "Manual test writing (RED phase)",
+      "duration": 45.0
+    },
+    {
+      "timestamp": "2025-04-13T18:01:50.277846",
+      "task": "Manual implementation (GREEN phase)",
+      "duration": 17.0
+    },
+    {
+      "timestamp": "2025-04-13T18:06:52.961407",
+      "task": "Manual refactoring (REFACTOR phase)",
+      "duration": 12.0
+    },
+    {
+      "timestamp": "2025-04-13T18:15:48.765142",
+      "task": "AI-assisted test writing (RED phase)",
+      "duration": 5.0
+    },
+    {
+      "timestamp": "2025-04-13T18:16:29.562076",
+      "task": "Manual refactoring (REFACTOR phase)",
+      "duration": 12.0
+    },
+    {
+      "timestamp": "2025-04-13T18:17:20.865917",
+      "task": "AI-assisted implementation (GREEN phase)",
+      "duration": 2.0
+    },
+    {
+      "timestamp": "2025-04-13T18:17:39.979092",
+      "task": "AI-assisted refactoring (REFACTOR phase)",
+      "duration": 1.0
+    },
+    {
+      "timestamp": "2025-04-13T18:18:00.860007",
+      "task": "HUMAN ERROR",
+      "duration": 60.0
+    }
+  ],
+  "constraint_assignments": {
+    "manual": [
+      3,
+      1,
+      2
+    ],
+    "ai_assisted": [
+      4,
+      0,
+      5
+    ],
+    "assigned_at": "2025-04-13T14:34:48"
+  }
+}

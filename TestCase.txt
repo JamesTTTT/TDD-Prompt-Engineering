@@ -1,10 +1,12 @@
 ==== Manually Written Test Cases ====
 
 [Add your manually written test cases here]
-
-
-
+test_artist_with_no_concert
+test_single_concert_per_artist
+test_sorted_by_date
 ==== AI-Assisted Test Cases ====
-
+test_unique_dates
+test_itinerary_content_format
+test_prioritize_single_concert_artists
 [Add your AI-generated test cases here]
 
